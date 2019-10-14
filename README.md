@@ -31,6 +31,7 @@ To push the current branch and set the remote as upstream, use
 - all features to branch off dev
 
 this way u will surely branch from dev
+
     git checkout b feature1mgfeature dev
    
     echo 2 do featurework only in ur own featurebranch WORKFLOW.md
