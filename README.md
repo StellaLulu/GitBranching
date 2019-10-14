@@ -2,6 +2,9 @@
 A Git Branching Workflow Exercise
 
 # SCM with github: a Git Branching Workflow Exercise
+## Clone Exisitng Repository
+    git clone https://github.com/stellactyy/GitBranching.git
+
 ## 1. Open Git Bash
 - cd to the repository localtion
 ## 2. Create a new branch named "dev"
