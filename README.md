@@ -33,7 +33,8 @@ To push the current branch and set the remote as upstream, use
 this way u will surely branch from dev
 
     git checkout b feature1mgfeature dev
-   
+    
+    
     echo 2 do featurework only in ur own featurebranch WORKFLOW.md
     echo 3 commit regularly WORKFLOW.md
     echo 4 when unittesting is done commitlpush final changes and initiate pullrequest to der WORKFLOW.md
