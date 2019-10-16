@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GitBranching
 A Git Branching Workflow Exercise
 
@@ -5,6 +6,9 @@ A Git Branching Workflow Exercise
 ## Clone Exisitng Repository
     git clone https://github.com/stellactyy/GitBranching.git
 
+=======
+# SCM with github: a Git Branching Workflow Exercise
+>>>>>>> rel-1.0
 ## 1. Open Git Bash
 - cd to the repository localtion
 ## 2. Create a new branch named "dev"
@@ -15,6 +19,12 @@ To check that you are in master branch
 Create a new branch and switch to it in one step
     
     git checkout -b dev 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> rel-1.0
     echo "1. though shall always commit to dev before master" >> WORKFLOW.md
     git add .
     git commit -m "created WORKFLOW.md in new dev branch"
@@ -25,6 +35,7 @@ if there is an error message
 fatal: The current branch dev has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
+<<<<<<< HEAD
     git push --set-upstream origin dev
     
 ## 3. START development on a new "feautre/<my_feature_name>" branch [ALL DEVELOPERS]
@@ -41,3 +52,6 @@ this way u will surely branch from dev
     echo 6 delete feature branch WORKFLOW.md
     git commit a m added feature workflow in new feature branch
     git push
+=======
+    git push --set-upstream origin dev
+>>>>>>> rel-1.0
