@@ -2,15 +2,17 @@
 # GitBranching
 A Git Branching Workflow Exercise
 
-# SCM with github: a Git Branching Workflow Exercise
-## Clone Exisitng Repository
+### Adding an existing project to GitHub using the command line
+[github tutorial](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
+
+### Clone Exisitng Repository
     git clone https://github.com/stellactyy/GitBranching.git
 
-# SCM with github: a Git Branching Workflow Exercise
+### SCM with github: a Git Branching Workflow Exercise
 
-## 1. Open Git Bash
+### 1. Open Git Bash
 - cd to the repository localtion
-## 2. Create a new branch named "dev"
+### 2. Create a new branch named "dev"
 To check that you are in master branch
 
     git branch 
@@ -30,7 +32,7 @@ To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin dev
     
-## 3. START development on a new "feautre/<my_feature_name>" branch [ALL DEVELOPERS]
+### 3. START development on a new "feautre/<my_feature_name>" branch [ALL DEVELOPERS]
 - all features to branch off dev
 
 this way u will surely branch from dev
@@ -45,7 +47,7 @@ this way u will surely branch from dev
     git commit a m added feature workflow in new feature branch
     git push --set-upstream origin dev
 
-## 4. CREATE a new "rel-<verion_num>" branch
+### 4. CREATE a new "rel-<verion_num>" branch
 All releases also branch off **dev** but merge back into both **dev** and **master**
 
     git checkout -b rel-1.0 dev
@@ -61,7 +63,7 @@ All releases also branch off **dev** but merge back into both **dev** and **mast
     git push --tags (check that you have a new "release" item on github)
 
 
-## 5. CREATE a new **hotfix-<minor_version_num>** branch one [DEVELOPER1] that fixes a bug for a feature being coded concurrently [anotherDEVELOPERI]
+### 5. CREATE a new **hotfix-<minor_version_num>** branch one [DEVELOPER1] that fixes a bug for a feature being coded concurrently [anotherDEVELOPERI]
 all hotfixes branch off masterandmerge back into both deer and master
 
 
