@@ -5,6 +5,17 @@ SCM with github: a Git Branching Workflow Exercise
 ### Adding an existing project to GitHub using the command line
 [github tutorial](https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
 
+##### 1. Create a new repository on GitHub
+##### 2. Open Git Bash in current working directory
+##### 3. Initialize the local directory as a Git repository <br>
+
+    git init
+    git add .
+    git commit -m "First commit"
+    git remote add origin remote repository URL
+    git remote -v
+    git push origin master
+
 ### Clone Exisitng Repository
     git clone https://github.com/stellactyy/GitBranching.git
 
