@@ -15,6 +15,12 @@ SCM with github: a Git Branching Workflow Exercise
     git remote add origin remote repository URL
     git remote -v
     git push origin master
+    
+### Delete unpushed commit
+##### Delete the most recent commit, keeping the work you've done:
+    git reset --soft HEAD~1
+##### Delete the most recent commit, destroying the work you've done:
+    git reset --hard HEAD~1
 
 ### Clone Exisitng Repository
     git clone https://github.com/stellactyy/GitBranching.git
